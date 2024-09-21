@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+}
+:root{
+  /*Backgrounds*/
+
+--Very_dark_desaturated_blue : hsl(222, 26%, 31%);
+--Very_dark_desaturated_blue : hsl(223, 31%, 20%);
+--Very_dark_desaturated_blue : hsl(224, 36%, 15%);
+
+/*Keys*/
+
+--Desaturated_dark_blue : hsl(225, 21%, 49%);
+--Desaturated_dark_blue : hsl(224, 28%, 35%);
+
+--Red : hsl(6, 63%, 50%);
+--Dark_red : hsl(6, 70%, 34%);
+
+--Light_grayish_orange : hsl(30, 25%, 89%);
+--Grayish_orange : hsl(28, 16%, 65%);
+
+/*Text*/
+
+--Very_dark_grayish_blue: hsl(221, 14%, 31%);
+--White: hsl(0, 0%, 100%);
+
+/*Theme 2*/
+
+
+/*Theme 3*/
+
+
+}
+.first_change_colors{
+    
+--Very_dark_desaturated_blue : hsl(222, 26%, 31%);
+--Very_dark_desaturated_blue : hsl(223, 31%, 20%);
+--Very_dark_desaturated_blue : hsl(224, 36%, 15%);
+
+/*Keys*/
+
+--Desaturated_dark_blue : hsl(225, 21%, 49%);
+--Desaturated_dark_blue : hsl(224, 28%, 35%);
+
+--Red : hsl(6, 63%, 50%);
+--Dark_red : hsl(6, 70%, 34%);
+
+--Light_grayish_orange : hsl(30, 25%, 89%);
+--Grayish_orange : hsl(28, 16%, 65%);
+
+/*Text*/
+
+--Very_dark_grayish_blue: hsl(221, 14%, 31%);
+--White: hsl(0, 0%, 100%);
+}
+.second_change_colors{
+
+/*Backgrounds*/
+
+--Very_dark_desaturated_blue : hsl(0, 0%, 90%);
+--Very_dark_desaturated_blue: hsl(0, 5%, 81%);
+--Very_dark_desaturated_blue: hsl(0, 0%, 93%);
+
+/*Keys*/
+
+--Desaturated_dark_blue: hsl(185, 42%, 37%);
+--Desaturated_dark_blue: hsl(185, 58%, 25%);
+
+--Red : hsl(25, 98%, 40%);
+--Dark_red : hsl(25, 99%, 27%);
+
+--Light_grayish_orange : hsl(45, 7%, 89%);
+--Grayish_orange : hsl(35, 11%, 61%);
+
+/*Text*/
+
+--Very_dark_grayish_blue: hsl(60, 10%, 19%);
+--White: hsl(0, 0%, 100%);
+}
+.therde_change_colors{
+/*Backgrounds*/
+
+--Very_dark_desaturated_blue: hsl(268, 75%, 9%);
+--Very_dark_desaturated_blue: hsl(268, 71%, 12%);
+
+/*Keys*/
+
+--Desaturated_dark_blue: hsl(281, 89%, 26%);
+--Desaturated_dark_blue : hsl(285, 91%, 52%);
+
+--Red : hsl(176, 100%, 44%);
+--Dark_red : hsl(177, 92%, 70%);
+
+--Light_grayish_orange: hsl(268, 47%, 21%);
+--Grayish_orange : hsl(290, 70%, 36%);
+
+/*Text*/
+
+--Light_yellow: hsl(52, 100%, 62%);
+--Very_dark_grayish_blue: hsl(198, 20%, 13%);
+--white : hsl(0, 0%, 100%);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10PX;
+    background-color: var(--Desaturated_dark_blue);
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--White);
+}
+.step_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+    justify-content: center;
+    align-items: center;
+}
+.change_color_container{
+    display: flex;
+    align-items: end;
+    gap: 10PX;
+}
+.change_color_container p{
+    font-size: 20px;
+}
+
+/* Container for the step */
+ .lauding {
+    height: 25px;
+    width: 100px;
+    background-color: var(--Very_dark_desaturated_blue);
+    border-radius: 10px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.first_lauding {
+    height: 25px;
+    width: 100px;
+    background-color: var(--Very_dark_desaturated_blue);
+    border-radius: 10px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.seconde_lauding {
+    height: 25px;
+    width: 100px;
+    background-color: var(--Very_dark_desaturated_blue);
+    border-radius: 10px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.therde_lauding {
+    height: 25px;
+    width: 100px;
+    background-color: var(--Very_dark_desaturated_blue);
+    border-radius: 10px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+/* Circular step that moves */
+.lauding .step {
+    background-color: var(--Red);
+    height: 20px;
+    width: 20px;
+    font-size:20px;
+  color: var(--Red);
+    border-radius: 50%;
+    margin:0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.step_container h3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+}
+#result_input{
+    width: 40%;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--Very_dark_desaturated_blue);
+    outline: none;
+    font-size: 2rem;
+    color: var(--White);
+    text-align: right;
+    padding-right: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10PX;
+    width: 40%;
+    background-color: var(--Very_dark_desaturated_blue);
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0px;
+   border-radius: 20px;
+}
+.container button{
+    width: 23%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.delete_btn{
+    background-color: var(--Desaturated_dark_blue);
+    color: var(--White);
+}
+.reset_btn{
+    width: 200px;
+    background-color: var(--Desaturated_dark_blue);
+    color: var(--White);
+}
+.equal_btn{
+    background-color: var(--Red);
+    color: var(--White);
+    width: 200px;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--White);
+    }
+    #result_input{
+        width: 90%;
+        height: 100px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--Very_dark_desaturated_blue);
+        outline: none;
+        font-size: 2rem;
+        color: var(--White);
+        text-align: right;
+        padding-right: 20px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10PX;
+        width: 90%;
+        background-color: var(--Very_dark_desaturated_blue);
+       justify-content: center;
+       align-items: center;
+       padding: 20px 0px;
+       border-radius: 20px;
+    }
+}
